@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+
+}
+
+.segment {
+    padding-bottom: 4em;
+}
+
+.segmentImage {
+    padding-top: .6em;
+}
+
+.segmentImage img {
+    width: 100%;
+}
+
+section {
+    padding: .6em;
+    width: auto;
+    border: 1px dotted;
+}
+
+.scanButton {
+    width: 5000px;
+}
