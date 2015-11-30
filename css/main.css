@@ -22,5 +22,6 @@ section {
 }
 
 .scanButton {
-    width: 5000px;
+    width: auto;
+    padding-top: 2em;
 }
