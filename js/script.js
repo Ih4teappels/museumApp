@@ -13,8 +13,15 @@ window.addEventListener("load",function(){
     ]
 
  $('#reader').html5_qrcode(function(data){
+<<<<<<< HEAD
         console.log("Scan Succes! : " + data);
          document.getElementById("info").innerHTML = artwork[data].name;
+=======
+
+        console.log("HUEHUEHUEHUEHUEHUEHUE" + data)
+        console.log("Scan Succes! : " + data);
+
+>>>>>>> 9e52ed560f4cb573bec376e2068aa64c41148f36
     },
     function(error){
         console.log("error : " + error);
