@@ -3,3 +3,13 @@
 	width: 90%;
 	height: 700px;
 }
+
+h1 {
+	color: lightblue;
+	text-align: center;
+	font-size: 56px;
+}
+
+body {
+	background-color: black;
+}

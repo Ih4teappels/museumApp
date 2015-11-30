@@ -5,7 +5,11 @@ window.addEventListener("load",function(){
 
 
  $('#reader').html5_qrcode(function(data){
+ 	if (data == "3") {
+        	console.log("HUEHUEHUEHUEHUEHUEHUE" + data)
         console.log("Scan Succes! : " + data);
+
+        };
     },
     function(error){
         console.log("error : " + error);
