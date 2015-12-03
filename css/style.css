@@ -40,3 +40,9 @@ button {
 	display: block;
 	margin: auto;
 }
+
+#showReader {
+	margin-top: 3em;
+	width: 20em;
+	height: 4em;
+}
