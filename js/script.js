@@ -31,6 +31,10 @@ window.addEventListener("load",function(){
         }
     ]
 
+    var notificationBar = new NotificationBar(".notification-bar");
+
+    
+
  $('#reader').html5_qrcode(function(data){
         document.getElementById("name").innerHTML = artwork[data].name;
         document.getElementById("info").innerHTML = artwork[data].info;
@@ -38,6 +42,9 @@ window.addEventListener("load",function(){
         document.getElementById('reader').style.visibility  = 'hidden';
         document.getElementById('readerInfo').style.visibility  = 'hidden';
         document.getElementById('showReader').style.visibility  = 'visible';
+
+        /** we laten een begin notificatie zien */
+        notificationBar.showMessage("Klik op scan om terug te gaan!");
 
     },
     function(error){
