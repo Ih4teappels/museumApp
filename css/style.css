@@ -5,15 +5,19 @@
 }
 
 #name {
-
+    font-size: 56px;
+    text-align: center;
 }
 
 #info {
-
+    width: 75%;
+    padding-left:8em;
+    font-size: 25px;
 }
 
 #image {
-
+    width: 75%;
+    padding-left:8em ;
 }
 
 h1 {
@@ -29,6 +33,7 @@ body {
 h3 {
 	color: #fff;
 	text-align: center;
+    font-size: 50px;
 }
 
 button {
