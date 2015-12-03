@@ -4,11 +4,12 @@
 
 var artwork = [
     {
-        id: 3,
+        id: 0,
         name: 'Nachtwatch',
         img_src: 'http://lh3.ggpht.com/kyli_fpElvyJPO-SmYL6NE4h_5meEj_-3Q3gqzc-DJSkNnPLwl6BCuyllV5yWA=s1200',
         info: 'De Nachtwacht is het enige schuttersstuk...'
     }
+    
 ]
 
 function display(data){
