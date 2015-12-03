@@ -13,3 +13,13 @@ h1 {
 body {
 	background-color: black;
 }
+
+h3 {
+	color: #fff;
+	text-align: center;
+}
+
+button {
+	display: block;
+	margin: auto;
+}

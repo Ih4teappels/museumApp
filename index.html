@@ -7,16 +7,28 @@
         <script src="lib/html5-qrcode.min.js"></script>
         <script src="js/artwork.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" href="css/default.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 <body>
-    <h1>MuseumApp</h1>
-    <div id="reader">
+
+    <div class="notification-bar animatedCSS">
+        Dit is een notification balk
     </div>
 
+  <script src="js/NotificationBar.js"></script>
+  <script src="js/main.js"></script>
+
     <div id="name" style="color: white"></div>
-    <img id="photo" src="">
     <div id="info" style="color: white"></div>
+    <img id="image" src="">
+
+    <a href="index.html"><button id="showReader" style="visibility: hidden">Scan</button></a>
+    <div id="reader">
+    </div>
+    <h3 id="readerInfo">Scan hier uw code</h3>
+
+
 </body>
 </html>
