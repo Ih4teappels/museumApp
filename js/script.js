@@ -6,34 +6,34 @@ window.addEventListener("load",function(){
     var artwork = [
         {
             id: 0,
-            name: 'Nachtwatch',
-            img_src: 'http://lh3.ggpht.com/kyli_fpElvyJPO-SmYL6NE4h_5meEj_-3Q3gqzc-DJSkNnPLwl6BCuyllV5yWA=s1200',
+            name: 'Nachtwacht',
+            image: 'http://lh3.ggpht.com/kyli_fpElvyJPO-SmYL6NE4h_5meEj_-3Q3gqzc-DJSkNnPLwl6BCuyllV5yWA=s1200',
             info: 'De Nachtwacht is het enige schuttersstuk...'
         },
         {
-        id: 1,
-        name: 'Aardappeleters',
-        img_src: 'http://lh3.ggpht.com/kyli_fpElvyJPO-SmYL6NE4h_5meEj_-3Q3gqzc-DJSkNnPLwl6BCuyllV5yWA=s1200',
-        info: 'De Aardappeleters is het enige schuttersstuk...'
+            id: 1,
+            name: 'Aardappeleters',
+            image: 'http://lh3.ggpht.com/kyli_fpElvyJPO-SmYL6NE4h_5meEj_-3Q3gqzc-DJSkNnPLwl6BCuyllV5yWA=s1200',
+            info: 'De Aardappeleters is het enige schuttersstuk...'
         },
         {
             id: 2,
             name: 'Scream',
-            img_src: 'http://lh3.ggpht.com/kyli_fpElvyJPO-SmYL6NE4h_5meEj_-3Q3gqzc-DJSkNnPLwl6BCuyllV5yWA=s1200',
+            image: 'http://lh3.ggpht.com/kyli_fpElvyJPO-SmYL6NE4h_5meEj_-3Q3gqzc-DJSkNnPLwl6BCuyllV5yWA=s1200',
             info: 'Scream is het enige schuttersstuk...'
         },
         {
             id: 3,
             name: 'Waterfall',
-            img_src: 'http://lh3.ggpht.com/kyli_fpElvyJPO-SmYL6NE4h_5meEj_-3Q3gqzc-DJSkNnPLwl6BCuyllV5yWA=s1200',
+            image: 'http://lh3.ggpht.com/kyli_fpElvyJPO-SmYL6NE4h_5meEj_-3Q3gqzc-DJSkNnPLwl6BCuyllV5yWA=s1200',
             info: 'Waterfall is het enige schuttersstuk...'
         }
     ]
 
  $('#reader').html5_qrcode(function(data){
-         document.getElementById("info").innerHTML = artwork[data].name;
-         document.getElementById('<img src=').innerHTML = artwork[data].img_src;
+         document.getElementById("name").innerHTML = artwork[data].name;
          document.getElementById("info").innerHTML = artwork[data].info;
+         document.getElementById("photo").innerHTML = artwork[data].image;
     },
     function(error){
         // console.log("error : " + error);
